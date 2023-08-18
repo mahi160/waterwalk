@@ -1,0 +1,7 @@
+{
+  "name": "waterwalk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

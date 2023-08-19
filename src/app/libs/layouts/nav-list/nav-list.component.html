@@ -1,0 +1,10 @@
+<ion-list lines="none">
+  <ion-item *ngFor="let item of navItems">
+    <ion-icon
+      [name]="item.icon"
+      class="-mr-1 -h-5 -w-5"
+      color="primary"
+    ></ion-icon>
+    <ion-label>{{ item.name }}</ion-label>
+  </ion-item>
+</ion-list>
